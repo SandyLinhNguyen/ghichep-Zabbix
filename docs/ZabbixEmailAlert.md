@@ -1,8 +1,8 @@
 # Zabbix Notification Email
 
 ### Bước 1:
-Truy cập vào mục **Adminitration/Media**, sau đó click vào Email settings như hình dưới:
-![Administration_Media](/images/email-media.png)
+Truy cập vào mục **Administration/Media**, sau đó click vào Email settings như hình dưới:
+![Administration_Media](\images\email-media.png)
 Sau đó điền các trường thông tin như sau:
  - Name: Email
  - Type: Email
@@ -14,11 +14,11 @@ Sau đó điền các trường thông tin như sau:
  - Authentication: Chọn Username and password
    
 Điền đủ thông tin các trường Username và password rồi ấn Update
-![Media_Type](/images/media_type.png)
+![Media_Type](\images\media_type.png)
 
 ### Bước 2:
 Truy cập vào mục **Administration/Users**, nhấn vào tab Admin rồi trình duyệt sẽ hiển thị ra ba trường thông tin bao gồm User, Media, Permissions. Ở trường User, chúng ta để mặc định và chuyển sang trường Media, ấn vào Edit và chọn các mức độ mà bạn muốn bắn email cảnh báo như hình sau:
-![media](/images/media.png)
+![media](\images\media.png)
 Trong đó, send to là địa chỉ mail nhận cảnh báo, when active là khoảng thời gian hoạt động và format là: **d-d,hh:mm-hh:mm**, với d-d là day to day, với 1 đến 7 tương ứng từ monday tơi sunday, 00:00-24:00 là khoảng thời gian nguyên 1 ngày
 
 ### Bước 3:
@@ -27,10 +27,10 @@ Tiếp theo sang tab Operations chúng ta chọn edit và chỉnh sửa các tr�
  - Send to Users chúng ta chọn Admin (Zabbix Administrator)
  - Trường Send only to chúng ta chọn Email
 
-![operation](/images/operations.png)
+![operation](\images\operations.png)
 Thực hiện tương tự với tab recovery operations
-![recovery](/images/recovery.png)
+![recovery](\images\recovery.png)
 
 Các bước cấu hình email notify hoàn thành, việc bây giờ là thực hiện restart agent rồi đợi mail bắn cảnh báo trả về là hoàn hành
 
-![result](/images/result.png)
+![result](\images\result.png)
