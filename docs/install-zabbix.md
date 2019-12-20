@@ -88,9 +88,9 @@
     # Creating database
     export zabbix_db_pass="StrongPassword"
     mysql -uroot -p <<MYSQL_SCRIPT
-        create database zabbix;
-        grant all privileges on zabbix.* to zabbix@'localhost' identified by '${zabbix_db_pass}';
-        FLUSH PRIVILEGES;
+    create database zabbix;
+    grant all privileges on zabbix.* to zabbix@'localhost' identified by '${zabbix_db_pass}';
+    FLUSH PRIVILEGES;
     MYSQL_SCRIPT
 
     # Importing data
